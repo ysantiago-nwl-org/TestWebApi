@@ -1,0 +1,10 @@
+﻿F:\ws\TestWebApi\TestWebApi\Controllers\WeatherForecastController.cs
+F:\ws\TestWebApi\TestWebApi\Program.cs
+F:\ws\TestWebApi\TestWebApi\WeatherForecast.cs
+F:\ws\TestWebApi\TestWebApi\obj\Debug\net6.0\TestWebApi.GlobalUsings.g.cs
+F:\ws\TestWebApi\TestWebApi\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+F:\ws\TestWebApi\TestWebApi\obj\Debug\net6.0\TestWebApi.AssemblyInfo.cs
+F:\ws\TestWebApi\TestWebApi\obj\Debug\net6.0\TestWebApi.MvcApplicationPartsAssemblyInfo.cs
+F:\ws\TestWebApi\TestWebApi\appsettings.Development.json
+F:\ws\TestWebApi\TestWebApi\appsettings.json
+F:\ws\TestWebApi\TestWebApi\Properties\launchSettings.json
