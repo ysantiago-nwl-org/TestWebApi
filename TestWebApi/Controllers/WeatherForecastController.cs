@@ -22,7 +22,7 @@ namespace TestWebApi.Controllers
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+                Summary = Summaries[Random.Shared.Next(Summaries.Length)],
             })
             .ToArray();
         }
@@ -31,7 +31,12 @@ namespace TestWebApi.Controllers
         [Route("GetWeatherForecast/{city}")]
         public WeatherForecast GetCityWeatherForecast(string city)
         {
-            return null;
+            return new WeatherForecast
+            {
+                Date = DateTime.Now,
+                TemperatureC = Random.Shared.Next(-20, 50),
+                Summary = Summaries[Random.Shared.Next(Summaries.Length)],
+            };
         }
     }
 }
