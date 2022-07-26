@@ -26,5 +26,12 @@ namespace TestWebApi.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet]
+        [Route("GetWeatherForecast/{city}")]
+        public WeatherForecast GetCityWeatherForecast(string city)
+        {
+            return null;
+        }
     }
 }
