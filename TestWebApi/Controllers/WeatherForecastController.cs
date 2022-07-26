@@ -26,17 +26,5 @@ namespace TestWebApi.Controllers
             })
             .ToArray();
         }
-
-        [HttpGet]
-        [Route("GetWeatherForecast/{city}")]
-        public WeatherForecast GetCityWeatherForecast(string city)
-        {
-            return new WeatherForecast
-            {
-                Date = DateTime.Now,
-                TemperatureC = Random.Shared.Next(-20, 50),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)],
-            };
-        }
     }
 }
